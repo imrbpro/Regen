@@ -1,0 +1,31 @@
+{
+  "name": "regen",
+  "version": "1.0.0",
+  "description": "Content Generation using OPENAI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "webpack --mode production",
+    "test": "N/A"
+  },
+  "keywords": [
+    "OpenAi",
+    "Blogs",
+    "AI"
+  ],
+  "author": "MuhammadRehanBaig",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
